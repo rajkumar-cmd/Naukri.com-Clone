@@ -1,0 +1,29 @@
+#topComapnies{
+    text-align: center;
+    margin: auto;
+}
+#topCompanies>div:nth-child(2){
+    display:flex;
+    width:80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    color:rgb(133,129,141);
+}
+#topComapnies>div:nth-child(1){
+    font-size: 35px;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    color:#1b2437;
+    width:30%;
+}
+#topCompanies>div:nth-child(2)>div>div>img{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+    width:40px;
+}
+#topCompanies>div:nth-child(2)>div{
+    border-radius: 15px 5px 15px 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px 20px;
+}
