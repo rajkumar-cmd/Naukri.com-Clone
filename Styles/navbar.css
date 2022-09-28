@@ -4,6 +4,7 @@
     margin: auto;
     justify-content: space-around;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 ul{
     list-style-type: none;
@@ -11,28 +12,53 @@ ul{
 #header>#firstnav{
     display: flex;
     justify-content: space-between;
+    position:relative;
 }
 #header>#firstnav>div>img{
    width: 150px;
-   padding-top: 10px;
+   padding-top: 5px;
 }
 #header>#firstnav>nav>ul{
     display: flex;
     margin-top: 5px;
-    cursor: pointer;
 }
-#header>#firstnav>nav>ul>li{
+#header>#firstnav>nav>ul>li>a{
+    text-decoration: none;
+}
+#header>#firstnav>nav>ul>li>div>div>h4{
     padding: 0px 20px;
     padding-top: 10px;
-    color: #52678b;
+    color:rgb(61, 59, 65);
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+}
+#header>#firstnav>nav>ul>li>div>div>ul>li>a{
+    text-decoration: none;
+}
+#header>#firstnav>nav>ul>li>div>div>ul>li>a{
+    padding: 0px 20px;
+    padding-top: 10px;
+    color:rgb(133,129,141);
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;
+}
+#header>#firstnav>nav>ul>li>a{
+    padding: 0px 20px;
+    padding-top: 10px;
+    color:rgb(133,129,141);
     font-family: Inter, Roboto, sans-serif, Helvetica;
     font-weight: 500;
     font-size: 18px;
+    list-style: none;
 }
 #header>#lastnav{
     display: flex;
     padding-right:100px ;
     gap:20px;
+    position:relative;
 }
 #header>#lastnav>div{
     display: flex;
@@ -47,7 +73,6 @@ ul{
     padding-top: 10px;
     text-align: center;
     align-self: center;
-    border: 1px solid black;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -82,13 +107,50 @@ ul{
 #header>#lastnav>div:nth-child(2)>p:nth-child(1){
     padding-right: 10px;
 }
-#header>#lastnav>div:nth-child(2)>p{
+#header>#lastnav>div:nth-child(2)>p:nth-child(2){
     cursor: pointer;
     color: #52678b;
     font-family: Inter, Roboto, sans-serif, Helvetica;
     font-weight: 500;
     font-size: 18px;
+    display: flex;
 }
 #header>#lastnav>div:nth-child(2)>img{
     width: 20px;
+    cursor: pointer;
+}
+
+.megamenu{
+    position: absolute;
+    top:120%;
+    left: 20%;
+    width:max-content;
+    padding-bottom:30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border:0.2px solid rgb(145, 142, 142);
+    border-radius: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+    display: flex;
+    object-fit: contain;
+    gap: 30px;
+}
+#header>#firstnav>nav>ul>li:hover .megamenu{
+    top:110%;
+    opacity: 1;
+    visibility: visible;
+}
+.megamenuitems>h4{
+    color: #384050;
+}
+.megamenuitems>ul{
+    padding-left: 0px;
+}
+.megamenuitems>ul>li{
+    padding-bottom: 15px;
+}
+#lastnav>div:nth-child(2)>p:nth-child(2){
+    color: #497fff;
 }
