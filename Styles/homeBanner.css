@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+#banner{
+    height:150px;
+    background-color: #f9fafe;
+    text-align: center;
+    padding-top: 40px;
+}
+#banner>h1{
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 3px;
+    color:#1b2437;
+}
+#banner>p{
+    margin-top: 2px;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    color:rgb(133,129,141);
+    font-weight: 500;
+    font-size: 20px;
+}
+#banner>div{
+    margin-top: 50px;
+}

@@ -136,6 +136,7 @@ ul{
     display: flex;
     object-fit: contain;
     gap: 30px;
+    background-color:white;
 }
 #header>#firstnav>nav>ul>li:hover .megamenu{
     top:110%;
