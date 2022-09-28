@@ -1,0 +1,94 @@
+#header{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+ul{
+    list-style-type: none;
+}
+#header>#firstnav{
+    display: flex;
+    justify-content: space-between;
+}
+#header>#firstnav>div>img{
+   width: 150px;
+   padding-top: 10px;
+}
+#header>#firstnav>nav>ul{
+    display: flex;
+    margin-top: 5px;
+    cursor: pointer;
+}
+#header>#firstnav>nav>ul>li{
+    padding: 0px 20px;
+    padding-top: 10px;
+    color: #52678b;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-weight: 500;
+    font-size: 18px;
+}
+#header>#lastnav{
+    display: flex;
+    padding-right:100px ;
+    gap:20px;
+}
+#header>#lastnav>div{
+    display: flex;
+    gap:20px;
+}
+#header>#lastnav>div:nth-child(1)>div{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-size: 17px;
+    font-weight: bolder;
+    width:90px;
+    height:30px;
+    padding-top: 10px;
+    text-align: center;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+}
+#header>#lastnav>div:nth-child(1)>div:nth-child(1){
+    border: 1px solid #497fff;
+    background-image: linear-gradient(to top,transparent 50%,#497fff 50%);
+    color: #497fff;
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+    transition: 0.3s;
+}
+#header>#lastnav>div:nth-child(1)>div:nth-child(1):hover{
+    background-position: 0% 0%;
+    color: aliceblue;
+}
+#header>#lastnav>div:nth-child(1)>div:nth-child(2){
+    border: 1px solid #ff7555;
+    background-image: linear-gradient(to bottom,#ff7555 50%,transparent 50%);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    transition: 0.3s;
+    color: aliceblue;
+}
+#header>#lastnav>div:nth-child(1)>div:nth-child(2):hover{
+    background-position: 0% 100%;
+    color: #ff7555;
+}
+#header>#lastnav>div:nth-child(2){
+    display: flex;
+    gap:5px;
+}
+#header>#lastnav>div:nth-child(2)>p:nth-child(1){
+    padding-right: 10px;
+}
+#header>#lastnav>div:nth-child(2)>p{
+    cursor: pointer;
+    color: #52678b;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-weight: 500;
+    font-size: 18px;
+}
+#header>#lastnav>div:nth-child(2)>img{
+    width: 20px;
+}
