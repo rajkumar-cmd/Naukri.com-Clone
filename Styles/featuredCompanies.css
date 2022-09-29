@@ -1,0 +1,94 @@
+#featuredCompanies{
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+#featuredCompanies>div:nth-child(1)>h1{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-weight: 600;
+    color:#1b2437;
+    width: 30%;
+    margin: auto;
+    font-size:30px;
+}
+#featuredCompanies>div:nth-child(2){
+    display:flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 40px;
+}
+#featuredCompanies>div:nth-child(2)>div{
+    border-radius: 15px 5px 15px 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    padding: 20px 20px; 
+    width:13%;
+    cursor: pointer;
+}
+#featuredCompanies>div:nth-child(2)>div:hover{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+#featuredCompanies>div:nth-child(2)>div>div>div{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    margin: auto;
+    width:max-content
+}
+#featuredCompanies>div:nth-child(2)>div>div:nth-child(2){
+    background-color: #fbfcfe;
+    border-radius: 10px;
+    margin: auto;
+}
+#featuredCompanies>div:nth-child(2)>div>div:nth-child(2)>h3{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-weight: 200;
+    padding-top: 30px;
+    margin-bottom: 2px;
+}
+#featuredCompanies>div:nth-child(2)>div>div>div>div:nth-child(2)>p{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-weight: 200;
+    font-size: small;
+}
+#star{
+    width: 15px;
+}
+#featuredCompanies>div:nth-child(2)>div>div:nth-child(4){
+    background-color: #f1f5ff;
+    border-radius: 100px;
+    margin: auto;
+    width: 55%;
+    height: 10%;
+    padding: 10px 10px 5px 10px;
+}
+#featuredCompanies>div:nth-child(2)>div>div:nth-child(4)>a{
+    text-decoration: none;
+    color: #457eff;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-weight: 600;
+}
+#featuredCompanies>div:nth-child(2)>div>p{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    color:rgb(133,129,141);
+    font-size: small;
+}
+#featuredCompanies>div:nth-child(3){
+    border: 1px solid #457eff;
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+    padding-top: 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #457eff;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-weight: 600;
+    cursor: pointer;
+}
+#featuredCompanies>div:nth-child(3):hover{
+    background-color: #457eff;
+    color: white;
+}
