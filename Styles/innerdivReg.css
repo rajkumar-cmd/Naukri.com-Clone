@@ -1,15 +1,15 @@
 #innerdivReg{
     background-color: #ebeef7;
-    height:3000px;
+    height:1100px;
     display:flex;
 }
 #innerleftReg{
     width: 40%;
-    height:3000px;
+    height:1100px;
 }
 #innerrightReg{
     width: 60%;
-    height:3000px;
+    height:1100px;
 }
 #innerleftReg>div{
     background-color: white;
@@ -51,5 +51,36 @@
     height:1000px;
     background-color: white;
     margin-top: 30px;
+    padding-top: 40px;
     border-radius: 20px;
+}
+#innerrightReg>div>h1{
+    margin-left: 80px;
+}
+#innerrightReg>div>form{
+    margin-left: 80px;
+}
+#innerrightReg>div>div{
+    text-align: center;
+}
+#footerReg{
+    background-color: #ebeef7;
+    height:300px;
+}
+#footerReg>div{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+#footerReg>div{
+    font-size:smaller;
+}
+#footerReg>div>div>a{
+    text-decoration: none;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    color: rgb(0, 132, 255);
+    font-size: small;
+    padding-top: 30px;
 }
