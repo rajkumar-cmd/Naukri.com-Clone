@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 #banner{
     height:150px;
-    background-color: #f9fafe;
+    background-image: url(https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     padding-top: 40px;
 }
 #banner>h1{
