@@ -1,0 +1,62 @@
+#discoverJob{
+    display: flex;
+    background-color: #fef9f4;
+    height:350px;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 40px;
+    width: 60%;
+    border-radius: 30px;
+}
+#leftSideDJ{
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+#leftSideDJ>img{
+    width: 100px;
+}
+#leftSideDJ>h1{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-weight: 600;
+    margin: auto;
+    font-size:25px;
+}
+#leftSideDJ>p{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    color:rgb(167, 163, 173);
+    font-size:large;
+}
+#rightSideDJ{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    padding: 50px;
+    padding-bottom: 40px;
+    position: relative;
+    bottom:40px;
+    height:350px;
+    width: 45%;
+    background-color: white;
+    border-radius: 20px 5px 20px 5px;
+}
+#rightSideDJ>div{
+    height:90px;
+    border-radius: 15px 5px 15px 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+#rightSideDJ>div:hover{
+    height:110px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+#rightSideDJ>div>p{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-size:large;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+#rightSideDJ>div>p:nth-child(2){
+    color:rgb(167, 163, 173);
+    font-size: small;
+}
