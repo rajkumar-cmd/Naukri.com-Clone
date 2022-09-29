@@ -6,6 +6,7 @@
 #featuredCompanies>div:nth-child(1)>h1{
     font-family: Inter, Roboto, sans-serif, Helvetica;
     font-weight: 600;
+    color:#1b2437;
     width: 30%;
     margin: auto;
     font-size:30px;
