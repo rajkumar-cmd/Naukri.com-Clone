@@ -142,6 +142,7 @@ ul{
     top:110%;
     opacity: 1;
     visibility: visible;
+    z-index: 1;
 }
 .megamenuitems>h4{
     color: #384050;
