@@ -1,0 +1,107 @@
+#interview{
+    width: 80%;
+    height:500px;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+#interview>#interLeft{
+    width: 28%;
+    padding-top: 50px;
+}
+#interview>#interCenter{
+    margin: auto;
+    width: 39%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#interview>#interRight{
+    width: 30%;
+    height:500px;
+    border: 1px solid black;
+    margin: auto;
+    align-items: center;
+}
+#interLeft>div:nth-child(1){
+    background-color:#f2f4ff;
+    color:#937cd0;
+    width:25%;
+    font-size: small;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    padding: 10px;
+    margin-left: 35px;
+}
+#interLeft>h1{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    margin: auto;
+    width:80%;
+    margin-bottom: 25px;
+}
+#interLeft>div{
+    width:60%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+#interLeft>div>img{
+    width:100%;
+}
+#interCenter>div>div>img{
+    width: 50px;
+}
+#interCenter>div>div{
+    display:flex;
+    gap:10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px 35px 20px 35px;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 15px 5px 15px 5px;
+    cursor: pointer;
+}
+#interCenter>div>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+#interCenter>div>div>div{
+    font-size:10px;
+    
+}
+#interCenter>div>div>div>h3{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+#interCenter>h2{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-weight: 600;
+    padding: 30px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+#interCenter>div>div>div>p{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-size: 13px;
+    margin-top: 2px;
+}
+#interCenter>div{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,250px));
+    gap:15px;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 5px;
+}
+#interCenter>p{
+    text-align: center;
+    padding: 20px;
+}
+#interCenter>p>a{
+    text-decoration: none;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    color: rgb(0, 153, 255);
+    font-size: larger;
+}
+#
