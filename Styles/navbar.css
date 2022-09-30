@@ -63,7 +63,6 @@ ul{
 #header>#lastnav>div{
     display: flex;
     gap:20px;
-    
 }
 #header>#lastnav>div:nth-child(1)>div{
     font-family: Inter, Roboto, sans-serif, Helvetica;
@@ -87,11 +86,7 @@ ul{
 }
 #header>#lastnav>div:nth-child(1)>div:nth-child(1):hover{
     background-position: 0% 0%;
-    color: white;
-}
-#header>#lastnav>div:nth-child(1)>div:nth-child(1)>a{
-    text-decoration: none;
-    color: #497fff;
+    color: aliceblue;
 }
 #header>#lastnav>div:nth-child(1)>div:nth-child(2){
     border: 1px solid #ff7555;
@@ -99,9 +94,6 @@ ul{
     background-size: 100% 200%;
     background-position: 0% 0%;
     transition: 0.3s;
-}
-#header>#lastnav>div:nth-child(1)>div:nth-child(2)>a{
-    text-decoration: none;
     color: aliceblue;
 }
 #header>#lastnav>div:nth-child(1)>div:nth-child(2):hover{
