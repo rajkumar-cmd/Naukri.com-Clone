@@ -1,0 +1,13 @@
+#navbarlog{
+    display: flex;
+    justify-content: space-around;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+}
+#navbarlog>img{
+    width: 130px;
+    height: 30px;
+}
+#navbarlog>p>a{
+    text-decoration: none;
+    color: rgb(0, 174, 255)
+}
