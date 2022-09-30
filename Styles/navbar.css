@@ -87,7 +87,7 @@ ul{
 }
 #header>#lastnav>div:nth-child(1)>div:nth-child(1):hover{
     background-position: 0% 0%;
-    color: aliceblue;
+    color: white;
 }
 #header>#lastnav>div:nth-child(1)>div:nth-child(1)>a{
     text-decoration: none;
