@@ -12,18 +12,18 @@
     font-size:30px;
 }
 #featuredCompanies>div:nth-child(2){
-    display:flex;
-    width: 70%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,200px));
+    width: 75%;
+    justify-content: space-between;
+    grid-gap:30px;
     margin: auto;
-    justify-content: space-around;
-    gap: 15px;
     margin-top: 40px;
 }
 #featuredCompanies>div:nth-child(2)>div{
     border-radius: 15px 5px 15px 5px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
-    padding: 20px 20px; 
-    width:13%;
+    padding: 20px; 
     cursor: pointer;
 }
 #featuredCompanies>div:nth-child(2)>div:hover{

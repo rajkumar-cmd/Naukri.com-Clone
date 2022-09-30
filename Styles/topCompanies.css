@@ -1,5 +1,4 @@
 #topCompanies{
-    margin:auto;
     margin-top: 60px;
 }
 #topCompanies>div:nth-child(1){
@@ -11,10 +10,12 @@
     font-size:15px;
 }
 #topCompanies>div:nth-child(2){
-    display:flex;
-    width:80%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,230px));
+    width: 80%;
     margin: auto;
     gap:20px;
+    justify-content: space-between;
     margin-top: 40px;
     font-family: Inter, Roboto, sans-serif, Helvetica;
     color:rgb(133,129,141);
@@ -40,6 +41,6 @@
 #topCompanies>div:nth-child(2)>div{
     border-radius: 15px 5px 15px 5px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    padding: 20px 20px;
+    padding: 20px;
     cursor: pointer;
 }
