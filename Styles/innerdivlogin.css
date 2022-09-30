@@ -1,17 +1,25 @@
-#innerdivReg{
+#innerdivlog{
     background-color: #ebeef7;
     height:760px;
     display:flex;
 }
-#innerleftReg{
+#innerleftlog{
     width: 40%;
     height:760px;
 }
-#innerrightReg{
+#innerrightlog{
     width: 50%;
     height:760px;
 }
-#innerleftReg>div{
+#innerrightlog>div{
+    margin: auto;
+}
+#innerrightlog>div>h1{
+    width: 90%;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+    font-size: 40px;
+}
+#innerleftlog>div{
     background-color: white;
     width: 35%;
     height:300px;
@@ -21,14 +29,14 @@
     border-radius: 20px;
     border: 1px dashed gray;
 }
-#innerleftReg>div>div{
+#innerleftlog>div>div{
     position: relative;
     bottom: 45px;
     width:40%;
     margin: auto;
     margin-bottom: 10px;
 }
-#innerleftReg>div>h2{
+#innerleftlog>div>h2{
     position:relative;
     font-family: Inter, Roboto, sans-serif, Helvetica;
     font-size: 20px;
@@ -37,7 +45,7 @@
     margin:auto;
     margin-bottom: 10px;
 }
-#innerleftReg>div>p{
+#innerleftlog>div>p{
     position:relative;
     font-family: Inter, Roboto, sans-serif, Helvetica;
     bottom: 45px;
@@ -46,7 +54,7 @@
     margin-bottom: 10px;
     color:rgb(133,129,141);
 }
-#innerrightReg>div{
+#innerrightlog>div{
     width: 80%;
     height:500px;
     background-color: white;
@@ -54,33 +62,40 @@
     padding-top: 40px;
     border-radius: 20px;
 }
-#innerrightReg>div>h1{
+#innerrightlog>div>h1{
+    margin-left: 80px;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+}
+#innerrightlog>div>form{
     margin-left: 80px;
 }
-#innerrightReg>div>form{
-    margin-left: 80px;
-}
-#innerrightReg>div>div{
+#innerrightlog>div>div{
     text-align: center;
 }
-#footerReg{
+#footerlog{
     background-color: #ebeef7;
     height:100px;
 }
-#footerReg>div{
+#footerlog>div{
     display: flex;
     width: 40%;
     margin: auto;
     margin-bottom: 10px;
     justify-content: space-around;
 }
-#footerReg>div{
+#footerlog>div{
     font-size:smaller;
 }
-#footerReg>div>div>a{
+#footerlog>div>div>a{
     text-decoration: none;
     font-family: Inter, Roboto, sans-serif, Helvetica;
     color: rgb(0, 132, 255);
     font-size: small;
     padding-top: 30px;
+}
+#innerrightlog>div>form>p{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
+}
+#innerrightlog>div>div>p{
+    font-family: Inter, Roboto, sans-serif, Helvetica;
 }
