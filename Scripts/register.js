@@ -13,5 +13,4 @@ function regApply(event){
     };
     regArr.push(regObj);
     localStorage.setItem("regDetail",JSON.stringify(regArr));
-    window.location.href = "./login.html";
 }
