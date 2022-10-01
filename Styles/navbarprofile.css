@@ -76,7 +76,7 @@ ul{
     border-radius: 100px;
     cursor: pointer;
 }
-#header>#lastnav>div:nth-child(1)>div:nth-child(1){
+#header>#lastnav>div:nth-child(1)>div:nth-child(3){
     border: 1px solid #497fff;
     background-image: linear-gradient(to top,transparent 50%,#497fff 50%);
     color: #497fff;
@@ -84,7 +84,7 @@ ul{
     background-position: 0% 100%;
     transition: 0.3s;
 }
-#header>#lastnav>div:nth-child(1)>div:nth-child(1):hover{
+#header>#lastnav>div:nth-child(1)>div:nth-child(3):hover{
     background-position: 0% 0%;
     color: aliceblue;
 }
@@ -142,6 +142,7 @@ ul{
     top:110%;
     opacity: 1;
     visibility: visible;
+    z-index: 1;
 }
 .megamenuitems>h4{
     color: #384050;
@@ -152,6 +153,16 @@ ul{
 .megamenuitems>ul>li{
     padding-bottom: 15px;
 }
-#lastnav>div:nth-child(2)>p:nth-child(2){
-    color: #497fff;
+#lastnav>div>img{
+    width: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+    border: 1px dashed orange;
+    border-radius: 100px;
+}
+#lastnav>div>img:hover{
+    background-color: orange;
+}
+#lastnav>div>input{
+    width: 250px;
 }
