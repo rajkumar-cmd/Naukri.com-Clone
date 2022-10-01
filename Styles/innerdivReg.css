@@ -2,6 +2,7 @@
     background-color: #ebeef7;
     height:1100px;
     display:flex;
+    font-family: Inter, Roboto, sans-serif, Helvetica;
 }
 #innerleftReg{
     width: 40%;
@@ -30,7 +31,6 @@
 }
 #innerleftReg>div>h2{
     position:relative;
-    font-family: Inter, Roboto, sans-serif, Helvetica;
     font-size: 20px;
     bottom: 45px;
     width:70%;
@@ -39,7 +39,6 @@
 }
 #innerleftReg>div>p{
     position:relative;
-    font-family: Inter, Roboto, sans-serif, Helvetica;
     bottom: 45px;
     width:70%;
     margin:auto;
@@ -63,9 +62,54 @@
 #innerrightReg>div>div{
     text-align: center;
 }
+#innerrightReg>div>div>button{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 600;
+    padding: 20px 50px;
+    color: green;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#innerrightReg>div>div>button:hover{
+    background-color: green;
+    color: white;
+}
+#innerrightReg>div>form>div{
+    display: flex;
+    gap:20px;
+}
+#innerrightReg>div>form>div>div{
+    padding: 20px;
+    border-radius: 25px 5px 25px 5px;
+    cursor: pointer;
+    color: #457EFF;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#innerrightReg>div>form>div>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#innerrightReg>div>form>div>div:active{
+    color: white;
+    background-color: #457EFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#innerrightReg>div>form>div>div>p:nth-child(1){
+    font-weight: 500;
+    font-size: larger;
+}
+#innerrightReg>div>form>div>div>p:nth-child(2){
+    font-weight: 200;
+    font-size: small;
+}
+#innerrightReg>div>form>input{
+    padding: 20px;
+    width:500px;
+}
 #footerReg{
     background-color: #ebeef7;
-    height:300px;
 }
 #footerReg>div{
     display: flex;
@@ -79,8 +123,20 @@
 }
 #footerReg>div>div>a{
     text-decoration: none;
-    font-family: Inter, Roboto, sans-serif, Helvetica;
     color: rgb(0, 132, 255);
     font-size: small;
     padding-top: 30px;
+}
+#innerrightReg>div>form>input:nth-child(12){
+    margin-left: 130px;
+    background-color: white;
+    border: none;
+    color: #457EFF;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#innerrightReg>div>form>input:nth-child(12):hover{
+    color: white;
+    background-color: #457EFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
