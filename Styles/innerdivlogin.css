@@ -5,11 +5,11 @@
 }
 #innerleftlog{
     width: 40%;
-    height:760px;
+    height:700px;
 }
 #innerrightlog{
     width: 50%;
-    height:760px;
+    height:700px;
 }
 #innerrightlog>div{
     margin: auto;
@@ -56,11 +56,25 @@
 }
 #innerrightlog>div{
     width: 80%;
-    height:500px;
+    height:550px;
     background-color: white;
     margin-top: 30px;
     padding-top: 40px;
     border-radius: 20px;
+}
+#innerrightlog>div>div>button{
+    padding: 20px 50px;
+    background-color: white;
+    color: #457EFF;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#innerrightlog>div>div>button:hover{
+    background-color: #457EFF;
+    color: white;
 }
 #innerrightlog>div>h1{
     margin-left: 80px;
@@ -106,4 +120,19 @@
 }
 #innerrightlog>div>div>p{
     font-family: Inter, Roboto, sans-serif, Helvetica;
+}
+#innerrightlog>div>form>input:nth-child(6){
+    margin-top:30px;
+    margin-left: 200px;
+    background-color: white;
+    font-size: large;
+    border: none;
+    color: #457EFF;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#innerrightlog>div>form>input:nth-child(6):hover{
+    color: white;
+    background-color: #457EFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
