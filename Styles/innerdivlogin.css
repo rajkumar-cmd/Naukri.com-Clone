@@ -69,6 +69,14 @@
 #innerrightlog>div>form{
     margin-left: 80px;
 }
+#innerrightlog>div>form>input{
+    padding: 20px;
+    width:600px;
+}
+#innerrightlog>div>form>input:nth-child(6){
+    width:200px;
+    margin-right: 300px;
+}
 #innerrightlog>div>div{
     text-align: center;
 }
